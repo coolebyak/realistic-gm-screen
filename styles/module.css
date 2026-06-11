@@ -1,0 +1,49 @@
+.rgs-card {
+  border-left: 3px solid #8b6f3d;
+  margin: 0.25rem 0;
+  padding: 0.4rem 0.55rem;
+  background: rgba(20, 20, 20, 0.06);
+}
+
+.rgs-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.25rem;
+  color: #4f4432;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rgs-line {
+  color: #191714;
+  font-size: 0.95rem;
+}
+
+.rgs-total-label {
+  color: #4f4432;
+  font-size: 0.78rem;
+}
+
+.rgs-total {
+  color: #191714;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.rgs-hidden-source-roll {
+  display: none !important;
+}
+
+.rgs-sanitized-card .inline-roll,
+.rgs-sanitized-card .rgs-static-roll,
+.rgs-sanitized-card [data-tooltip],
+.rgs-sanitized-card [data-roll] {
+  cursor: default;
+}
+
+.rgs-sanitized-card .rgs-static-roll {
+  pointer-events: none;
+}
